@@ -6,17 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "importData": "importData.mjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
     "@next/font": "^14.2.15",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.70.0",
     "bootstrap-icons": "^1.11.3",
+    "dotenv": "^16.4.7",
     "next": "14.2.17",
+    "next-sanity": "^9.8.38",
     "react": "^18",
     "react-dom": "^18",
-    "react-toastify": "^11.0.2"
+    "react-toastify": "^11.0.2",
+    "sanity": "^3.70.0",
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@types/node": "^20",
